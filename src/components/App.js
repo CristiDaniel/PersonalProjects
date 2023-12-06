@@ -11,7 +11,7 @@ import Timer from "./Timer";
 import FinishScreen from "./FinishScreen";
 import { useEffect, useReducer } from "react";
 
-const SECONDS_PER_QUESTION = 30;
+const SECONDS_PER_QUESTION = 2;
 
 const initialState = {
   questions: [],
